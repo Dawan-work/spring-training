@@ -10,6 +10,7 @@ class TrainingApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
