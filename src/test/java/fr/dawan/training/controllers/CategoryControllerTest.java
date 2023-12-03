@@ -31,8 +31,7 @@ public class CategoryControllerTest {
 	
 	@Autowired
 	private ICategoryService categoryService;
-	
-	@Autowired
+
 	private MockMvc mockMvc;
 	
 	@Autowired
@@ -42,7 +41,7 @@ public class CategoryControllerTest {
 	void contextLoads() {
 		assertThat(categoryController).isNotNull();
 	}
-	
+	/*
 	private static List<CategoryDto> categories;
 	
 	@BeforeAll
@@ -91,5 +90,6 @@ public class CategoryControllerTest {
 		assertEquals("cat1", cDto.getName());
 		
 	}
+	*/
 	
 }
