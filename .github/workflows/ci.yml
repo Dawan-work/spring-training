@@ -35,7 +35,6 @@ jobs:
       - name: Build with Maven
         run: mvn clean install
         env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-          DATABASE_USERNAME: ${{ secrets.DATABASE_USERNAME }}
-          DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          DATABASE_URL: jdbc:mysql://mysql:3306/training
+          DATABASE_USERNAME: onizuka
+          DATABASE_PASSWORD: secret
