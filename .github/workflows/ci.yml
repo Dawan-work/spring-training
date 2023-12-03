@@ -25,6 +25,6 @@ jobs:
           -Dsonar.organization=dawan-work \
           -Dsonar.projectName='training' \
           -Dsonar.host.url=https://sonarcloud.io \
-          -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+          -Dsonar.login=8fabaaf3bf19b6807dfcf87cdb46bb0d22c9db0d
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
