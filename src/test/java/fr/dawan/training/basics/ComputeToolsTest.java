@@ -9,8 +9,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import fr.dawan.training.tools.ComputeTools;
+import org.springframework.test.context.ActiveProfiles;
 
 //Une classe de Test => TestCase
+@ActiveProfiles("test")
 class ComputeToolsTest {
 
 	private int x,y;
